@@ -3,8 +3,8 @@ pipeline {
         label "windows"
     }
     tools {
-        maven 'Maven3.1.1'
-        jdk 'java8'
+        maven 'Maven3.6.0'
+        jdk '1.8.0_161'
     }
     stages {
         stage ('Initialize') {
